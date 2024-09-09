@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breeds</title>
+    <style>
+        /* General body styling */
+body {
+    background-color: #181818;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+/* Main dog container */
+#dog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Styling for each dog card */
+.dog-container {
+    background-color: #242424;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dog-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.8);
+}
+
+/* Dog name */
+h2 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+/* Temperament and origin text */
+.dog-temperament,
+.dog-origin {
+    font-size: 1.1rem;
+    color: #bdbdbd;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Description with emphasis */
+.dog-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    #dog-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <h1>Dog Breeds Information</h1> 
+    <div id="dog-list">
+       
+    </div>
+
+    <script src="./js/dogLocal.js"></script>
+</body>
+</html>

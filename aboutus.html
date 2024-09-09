@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dogs Information</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+    <!-- Banner Section -->
+    <section class="banner text-light text-center py-5">
+        <div class="container">
+            <h1 class="display-3">Welcome to Our Dog Information Page</h1>
+            <p class="lead">Explore the world of dogs and learn more about your favorite breeds.</p>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero text-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">About Us</h1>
+            <p class="lead">Discover the fascinating world of dogs and learn about our passion for these incredible animals.</p>
+
+            <!-- Tabs for changing content -->
+            <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Labrador Retriever</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">German Shepherd</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Bulldog</a>
+                </li>
+            </ul>
+            <div class="tab-content mt-4" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <img src="./images/golden-retriever-dog-21668976.webp" class="img-fluid rounded mb-3" alt="Labrador Retriever">
+                    <p>Friendly and outgoing, Labradors are known for their loyalty and playful nature.</p>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <img src="./images/German-Shepherd-dog-Alsatian.webp" class="img-fluid rounded mb-3" alt="German Shepherd">
+                    <p>Intelligent and versatile, German Shepherds are great working dogs and loyal companions.</p>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <img src="./images/premium_photo-1668114375111-e90b5e975df6.jpeg" class="img-fluid rounded mb-3" alt="Bulldog">
+                    <p>Known for their distinctive wrinkled face and muscular build, Bulldogs are calm and friendly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

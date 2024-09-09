@@ -1,0 +1,44 @@
+[
+    {
+        "id": "gsd",
+        "name": "German Shepherd",
+        "temperament": "Confident, Courageous, Intelligent, Obedient, Loyal",
+        "origin": "Germany",
+        "description": "German Shepherds are highly intelligent and obedient dogs known for their courage and loyalty. They are often used in police and military roles due to their trainability and work ethic. These dogs make excellent family pets and protectors."
+    },
+    {
+        "id": "lab",
+        "name": "Labrador Retriever",
+        "temperament": "Friendly, Outgoing, Playful, Energetic, Gentle",
+        "origin": "Canada",
+        "description": "Labrador Retrievers are one of the most popular dog breeds in the world, known for their friendly and playful nature. They are excellent family pets and great with children. Labradors are also highly trainable and often serve as guide dogs or therapy animals."
+    },
+    {
+        "id": "husky",
+        "name": "Siberian Husky",
+        "temperament": "Alert, Friendly, Outgoing, Independent, Energetic",
+        "origin": "Siberia, Russia",
+        "description": "Siberian Huskies are known for their endurance and independent nature. Originally bred as sled dogs, they are energetic and require a lot of exercise. Huskies are friendly and playful but can be stubborn and independent at times."
+    },
+    {
+        "id": "golden",
+        "name": "Golden Retriever",
+        "temperament": "Intelligent, Friendly, Devoted, Trustworthy, Kind",
+        "origin": "Scotland",
+        "description": "Golden Retrievers are well-known for their intelligence and loyalty. They are excellent companions and are frequently used in search-and-rescue operations, as well as therapy and guide dog work. Their friendly and calm demeanor makes them ideal for families."
+    },
+    {
+        "id": "beagle",
+        "name": "Beagle",
+        "temperament": "Curious, Friendly, Even-Tempered, Determined, Energetic",
+        "origin": "England",
+        "description": "Beagles are small to medium-sized hounds known for their keen sense of smell and curious nature. They are friendly, even-tempered dogs who get along well with families and other pets. Beagles are often used in detection work due to their strong sense of smell."
+    },
+    {
+        "id": "akita",
+        "name": "Akita",
+        "temperament": "Loyal, Courageous, Independent, Dignified, Reserved",
+        "origin": "Japan",
+        "description": "Akitas are powerful, independent dogs known for their loyalty and courage. Originating in Japan, Akitas are excellent guard dogs and are very protective of their families. They tend to be reserved with strangers but are incredibly loyal to those they know well."
+    }
+]

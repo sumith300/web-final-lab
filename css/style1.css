@@ -1,0 +1,120 @@
+/* Dark theme styling */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffcc00;
+}
+
+/* Main dog container for grid layout */
+#dog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Dog container card styling */
+.dog-container {
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card hover effects */
+.dog-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.8);
+}
+
+/* Fixed size for dog images */
+#dog-list img {
+    width: 100%;
+    height: 200px; /* Fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the box */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Dog name styling */
+h2 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+/* Temperament and origin */
+.dog-temperament,
+.dog-origin {
+    font-size: 1.1rem;
+    color: #bdbdbd;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Description styling */
+.dog-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+/* Button container styling */
+#button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Yellow button styles */
+.newdog {
+    background-color: #ffcc00;
+    color: #121212;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.newdog:hover {
+    background-color: #f7b500;
+}
+
+.newdog:active {
+    background-color: #e6a900;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    #dog-list {
+        grid-template-columns: 1fr;
+    }
+
+    .newdog {
+        width: 100%;
+    }
+}

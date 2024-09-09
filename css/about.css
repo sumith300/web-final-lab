@@ -1,0 +1,79 @@
+/* Dark theme styling */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Banner Section Styling */
+.banner {
+    background: url('banner-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 5px solid #ffcc00; /* Optional decorative border */
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+/* Hero section styling */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: #ffcc00;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Tabs styling */
+.nav-tabs .nav-link {
+    border: none;
+    color: #e0e0e0;
+    background-color: #1e1e1e;
+}
+
+.nav-tabs .nav-link.active {
+    color: #ffcc00;
+    background-color: #333;
+    border: none;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #333;
+}
+
+/* Fixed size for images */
+.img-fluid {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Tab content styling */
+.tab-content {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
