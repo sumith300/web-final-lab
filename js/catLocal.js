@@ -3,7 +3,7 @@ window.onload = async () => {
 
     // Fetch the JSON file from the raw GitHub URL
     try {
-        const response = await fetch('https://raw.githubusercontent.com/sumith300/web-final-lab/main/cats.json'); // Update the JSON file URL
+        const response = await fetch('https://raw.githubusercontent.com/sumith300/web-final-lab/main/dogs.json'); // Update the JSON file URL
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
