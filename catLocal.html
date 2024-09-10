@@ -30,8 +30,8 @@
             color: #ffcc00;
         }
 
-        /* Main dog container */
-        #dog-list {
+        /* Main cat container */
+        #cat-list {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 20px;
@@ -39,8 +39,8 @@
             max-width: 1200px;
         }
 
-        /* Styling for each dog card */
-        .dog-container {
+        /* Styling for each cat card */
+        .cat-container {
             background-color: #242424;
             border-radius: 15px;
             overflow: hidden;
@@ -52,12 +52,12 @@
             justify-content: space-between;
         }
 
-        .dog-container:hover {
+        .cat-container:hover {
             transform: translateY(-10px);
             box-shadow: 0 12px 28px rgba(0, 0, 0, 0.8);
         }
 
-        /* Dog name */
+        /* Cat name */
         h2 {
             font-size: 1.8rem;
             color: #ffcc00;
@@ -65,8 +65,8 @@
         }
 
         /* Temperament and origin text */
-        .dog-temperament,
-        .dog-origin {
+        .cat-temperament,
+        .cat-origin {
             font-size: 1.1rem;
             color: #bdbdbd;
             margin-bottom: 8px;
@@ -74,7 +74,7 @@
         }
 
         /* Description with emphasis */
-        .dog-description {
+        .cat-description {
             font-size: 1rem;
             line-height: 1.8;
             font-style: italic;
@@ -87,7 +87,7 @@
                 font-size: 2rem;
             }
 
-            #dog-list {
+            #cat-list {
                 grid-template-columns: 1fr;
             }
         }
@@ -121,10 +121,10 @@
                         <a class="nav-link" href="./index.html">Sign In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cat.html">Random cat</a>
+                        <a class="nav-link" href="./cat.html">Random Cat</a>
                     </li>
-                    <li class="nav-item"></li>
-                        <a class="nav-link" href="./catLocal.html">cat info JSON</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./catLocal.html">Cat Info JSON</a>
                     </li>
                 </ul>
             </div>
@@ -132,7 +132,7 @@
     </nav>
 
     <h1>Cat Breeds Information</h1>
-    <div id="dog-list">
+    <div id="cat-list">
         <!-- Cat breed cards will be dynamically inserted here -->
     </div>
 

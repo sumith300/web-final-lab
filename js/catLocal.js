@@ -1,45 +1,48 @@
 window.onload = async () => {
-    const container = document.getElementById("dog-list");
+    const container = document.getElementById("cat-list");
 
-    // Fetch the JSON file
+    // Fetch the JSON file from the raw GitHub URL
     try {
-        const response = await fetch('./dogs.json');  // Path to your local JSON file
+        const response = await fetch('https://raw.githubusercontent.com/sumith300/web-final-lab/main/cats.json'); // Update the JSON file URL
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
         const data = await response.json();
 
-        // Iterate over each dog record
-        data.forEach(dog => {
-            // Create a container for each dog
-            const dogDiv = document.createElement("div");
-            dogDiv.classList.add("dog-container");
+        // Iterate over each cat record
+        data.forEach(cat => {
+            // Create a container for each cat
+            const catDiv = document.createElement("div");
+            catDiv.classList.add("cat-container");
 
-            // Create and add the dog name
-            const dogName = document.createElement("h2");
-            dogName.textContent = dog.name;
-            dogDiv.appendChild(dogName);
+            // Create and add the cat name
+            const catName = document.createElement("h2");
+            catName.textContent = cat.name;
+            catDiv.appendChild(catName);
 
             // Add temperament information
-            const dogTemperament = document.createElement("p");
-            dogTemperament.classList.add("dog-temperament");
-            dogTemperament.textContent = `Temperament: ${dog.temperament}`;
-            dogDiv.appendChild(dogTemperament);
+            const catTemperament = document.createElement("p");
+            catTemperament.classList.add("cat-temperament");
+            catTemperament.textContent = `Temperament: ${cat.temperament}`;
+            catDiv.appendChild(catTemperament);
 
             // Add origin information
-            const dogOrigin = document.createElement("p");
-            dogOrigin.classList.add("dog-origin");
-            dogOrigin.textContent = `Origin: ${dog.origin}`;
-            dogDiv.appendChild(dogOrigin);
+            const catOrigin = document.createElement("p");
+            catOrigin.classList.add("cat-origin");
+            catOrigin.textContent = `Origin: ${cat.origin}`;
+            catDiv.appendChild(catOrigin);
 
             // Add description
-            const dogDescription = document.createElement("p");
-            dogDescription.classList.add("dog-description");
-            dogDescription.textContent = dog.description;
-            dogDiv.appendChild(dogDescription);
+            const catDescription = document.createElement("p");
+            catDescription.classList.add("cat-description");
+            catDescription.textContent = cat.description;
+            catDiv.appendChild(catDescription);
 
-            // Append the dogDiv to the main container
-            container.appendChild(dogDiv);
+            // Append the catDiv to the main container
+            container.appendChild(catDiv);
         });
 
     } catch (error) {
-        console.error('Error fetching the dog data:', error);
+        console.error('Error fetching the cat data:', error);
     }
 };
