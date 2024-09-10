@@ -38,7 +38,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (valid) {
         document.getElementById('successMessage').textContent = 'Login successful!';
         setTimeout(() => {
-            window.location.href = 'dog.html'; // Redirect to home page
+            window.location.href = 'cat.html'; // Redirect to home page
         }, 1000); // Redirect after 1 second
     }
 });

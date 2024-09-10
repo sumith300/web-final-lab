@@ -1,44 +1,44 @@
 [
     {
-        "id": "gsd",
-        "name": "German Shepherd",
-        "temperament": "Confident, Courageous, Intelligent, Obedient, Loyal",
-        "origin": "Germany",
-        "description": "German Shepherds are highly intelligent and obedient dogs known for their courage and loyalty. They are often used in police and military roles due to their trainability and work ethic. These dogs make excellent family pets and protectors."
+        "id": "beng",
+        "name": "Bengal",
+        "temperament": "Alert, Agile, Energetic, Demanding, Intelligent",
+        "origin": "United States",
+        "description": "Bengal cats are highly energetic and agile, known for their striking coat patterns that resemble wild cats. They are playful, intelligent, and curious, requiring lots of stimulation and exercise. Bengals make excellent companions for active owners."
     },
     {
-        "id": "lab",
-        "name": "Labrador Retriever",
-        "temperament": "Friendly, Outgoing, Playful, Energetic, Gentle",
+        "id": "sphy",
+        "name": "Sphynx",
+        "temperament": "Curious, Friendly, Energetic, Affectionate, Playful",
         "origin": "Canada",
-        "description": "Labrador Retrievers are one of the most popular dog breeds in the world, known for their friendly and playful nature. They are excellent family pets and great with children. Labradors are also highly trainable and often serve as guide dogs or therapy animals."
+        "description": "The Sphynx cat is known for its hairless appearance, making it unique among cat breeds. Despite their lack of fur, they are affectionate, playful, and love attention. Sphynx cats are friendly and get along well with both people and other pets."
     },
     {
-        "id": "husky",
-        "name": "Siberian Husky",
-        "temperament": "Alert, Friendly, Outgoing, Independent, Energetic",
-        "origin": "Siberia, Russia",
-        "description": "Siberian Huskies are known for their endurance and independent nature. Originally bred as sled dogs, they are energetic and require a lot of exercise. Huskies are friendly and playful but can be stubborn and independent at times."
+        "id": "siam",
+        "name": "Siamese",
+        "temperament": "Affectionate, Vocal, Intelligent, Social, Curious",
+        "origin": "Thailand",
+        "description": "Siamese cats are known for their vocal nature and strong personalities. They are highly social, intelligent, and affectionate, often bonding closely with their owners. Siamese cats are playful and curious, making them great companions for families."
     },
     {
-        "id": "golden",
-        "name": "Golden Retriever",
-        "temperament": "Intelligent, Friendly, Devoted, Trustworthy, Kind",
-        "origin": "Scotland",
-        "description": "Golden Retrievers are well-known for their intelligence and loyalty. They are excellent companions and are frequently used in search-and-rescue operations, as well as therapy and guide dog work. Their friendly and calm demeanor makes them ideal for families."
+        "id": "maine",
+        "name": "Maine Coon",
+        "temperament": "Gentle, Playful, Intelligent, Friendly, Sociable",
+        "origin": "United States",
+        "description": "Maine Coons are large, gentle cats known for their friendly and sociable nature. They are intelligent and playful, making them great family pets. Maine Coons are also known for their long, thick fur and their ability to adapt to various living environments."
     },
     {
-        "id": "beagle",
-        "name": "Beagle",
-        "temperament": "Curious, Friendly, Even-Tempered, Determined, Energetic",
-        "origin": "England",
-        "description": "Beagles are small to medium-sized hounds known for their keen sense of smell and curious nature. They are friendly, even-tempered dogs who get along well with families and other pets. Beagles are often used in detection work due to their strong sense of smell."
+        "id": "pers",
+        "name": "Persian",
+        "temperament": "Calm, Affectionate, Quiet, Dignified, Sweet",
+        "origin": "Iran",
+        "description": "Persian cats are known for their calm and sweet demeanor. They are affectionate and love a quiet environment, making them great companions for those seeking a more relaxed pet. Their long, luxurious fur and dignified appearance make them a favorite among cat lovers."
     },
     {
-        "id": "akita",
-        "name": "Akita",
-        "temperament": "Loyal, Courageous, Independent, Dignified, Reserved",
-        "origin": "Japan",
-        "description": "Akitas are powerful, independent dogs known for their loyalty and courage. Originating in Japan, Akitas are excellent guard dogs and are very protective of their families. They tend to be reserved with strangers but are incredibly loyal to those they know well."
+        "id": "ragd",
+        "name": "Ragdoll",
+        "temperament": "Affectionate, Gentle, Quiet, Docile, Easygoing",
+        "origin": "United States",
+        "description": "Ragdolls are large, affectionate cats known for their docile and easygoing nature. They are very gentle and enjoy being handled, making them great pets for families with children. Ragdolls are also known for their beautiful blue eyes and soft, semi-long fur."
     }
 ]
