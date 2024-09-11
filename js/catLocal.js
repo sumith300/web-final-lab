@@ -3,7 +3,7 @@ window.onload = async () => {
 
     // Fetch the JSON file from the raw GitHub URL
     try {
-        const response = await fetch('https://raw.githubusercontent.com/sumith300/web-final-lab/main/dogs.json'); // Update the JSON file URL
+        const response = await fetch('./dogs.json'); // Update the JSON file URL
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -14,6 +14,13 @@ window.onload = async () => {
             // Create a container for each cat
             const catDiv = document.createElement("div");
             catDiv.classList.add("cat-container");
+
+            // Create and add the image
+            const catImage = document.createElement("img");
+            catImage.classList.add("cat-image");
+            catImage.src = cat.image_url; // Set the image URL
+            catImage.alt = `Image of ${cat.name}`;
+            catDiv.appendChild(catImage);
 
             // Create and add the cat name
             const catName = document.createElement("h2");

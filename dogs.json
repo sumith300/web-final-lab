@@ -4,41 +4,47 @@
         "name": "Bengal",
         "temperament": "Alert, Agile, Energetic, Demanding, Intelligent",
         "origin": "United States",
-        "description": "Bengal cats are highly energetic and agile, known for their striking coat patterns that resemble wild cats. They are playful, intelligent, and curious, requiring lots of stimulation and exercise. Bengals make excellent companions for active owners."
+        "description": "Bengal cats are highly energetic and agile, known for their striking coat patterns that resemble wild cats. They are playful, intelligent, and curious, requiring lots of stimulation and exercise. Bengals make excellent companions for active owners.",
+        "image_url": "https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_640.jpg"
     },
     {
         "id": "sphy",
         "name": "Sphynx",
         "temperament": "Curious, Friendly, Energetic, Affectionate, Playful",
         "origin": "Canada",
-        "description": "The Sphynx cat is known for its hairless appearance, making it unique among cat breeds. Despite their lack of fur, they are affectionate, playful, and love attention. Sphynx cats are friendly and get along well with both people and other pets."
+        "description": "The Sphynx cat is known for its hairless appearance, making it unique among cat breeds. Despite their lack of fur, they are affectionate, playful, and love attention. Sphynx cats are friendly and get along well with both people and other pets.",
+        "image_url": "https://t3.ftcdn.net/jpg/02/36/99/22/360_F_236992283_sNOxCVQeFLd5pdqaKGh8DRGMZy7P4XKm.jpg"
     },
     {
         "id": "siam",
         "name": "Siamese",
         "temperament": "Affectionate, Vocal, Intelligent, Social, Curious",
         "origin": "Thailand",
-        "description": "Siamese cats are known for their vocal nature and strong personalities. They are highly social, intelligent, and affectionate, often bonding closely with their owners. Siamese cats are playful and curious, making them great companions for families."
+        "description": "Siamese cats are known for their vocal nature and strong personalities. They are highly social, intelligent, and affectionate, often bonding closely with their owners. Siamese cats are playful and curious, making them great companions for families.",
+        "image_url": "https://www.zooplus.ie/magazine/wp-content/uploads/2020/01/European-Shorthair-on-a-branch-UK.jpg"
     },
     {
         "id": "maine",
         "name": "Maine Coon",
         "temperament": "Gentle, Playful, Intelligent, Friendly, Sociable",
         "origin": "United States",
-        "description": "Maine Coons are large, gentle cats known for their friendly and sociable nature. They are intelligent and playful, making them great family pets. Maine Coons are also known for their long, thick fur and their ability to adapt to various living environments."
+        "description": "Maine Coons are large, gentle cats known for their friendly and sociable nature. They are intelligent and playful, making them great family pets. Maine Coons are also known for their long, thick fur and their ability to adapt to various living environments.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWn9tlt0Px173S7W7p7jEjk2V-InrIXJUvSVlJwBlqPFoeTUn8AyEwEP0JobRrfj_sU6Q&usqp=CAU"
     },
     {
         "id": "pers",
         "name": "Persian",
         "temperament": "Calm, Affectionate, Quiet, Dignified, Sweet",
         "origin": "Iran",
-        "description": "Persian cats are known for their calm and sweet demeanor. They are affectionate and love a quiet environment, making them great companions for those seeking a more relaxed pet. Their long, luxurious fur and dignified appearance make them a favorite among cat lovers."
+        "description": "Persian cats are known for their calm and sweet demeanor. They are affectionate and love a quiet environment, making them great companions for those seeking a more relaxed pet. Their long, luxurious fur and dignified appearance make them a favorite among cat lovers.",
+        "image_url": "https://i.pinimg.com/236x/36/d4/f6/36d4f6a32e4f30548fc55be80d96e991.jpg"
     },
     {
         "id": "ragd",
         "name": "Ragdoll",
         "temperament": "Affectionate, Gentle, Quiet, Docile, Easygoing",
         "origin": "United States",
-        "description": "Ragdolls are large, affectionate cats known for their docile and easygoing nature. They are very gentle and enjoy being handled, making them great pets for families with children. Ragdolls are also known for their beautiful blue eyes and soft, semi-long fur."
+        "description": "Ragdolls are large, affectionate cats known for their docile and easygoing nature. They are very gentle and enjoy being handled, making them great pets for families with children. Ragdolls are also known for their beautiful blue eyes and soft, semi-long fur.",
+        "image_url": "https://www.omlet.co.uk/images/cache/1024/682/British-shorthair-bicolour-chocolate-white.jpg"
     }
 ]
